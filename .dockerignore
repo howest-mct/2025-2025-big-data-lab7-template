@@ -1,0 +1,22 @@
+# Environment variables
+.env
+
+# Git
+.git/
+.gitignore
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Documentation
+README.md
+
+exportVideos.json

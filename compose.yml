@@ -1,5 +1,3 @@
-version: '3.9'
-
 services:
   youtube-processor:
     build: ./
@@ -9,4 +7,4 @@ services:
       - ./aws-config.txt:/root/.aws/config
       - ./youtube.py:/root/youtube.py
     entrypoint: [ "sh", "-c", "sleep 2073600" ]
-    command: python /root/youtube.py
+    command: [ "python", "/root/youtube.py" ]
